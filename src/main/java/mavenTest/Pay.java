@@ -6,8 +6,7 @@ package mavenTest;
  *
  */
 public class Pay {
-	
-	
+
 	/**
 	 * 
 	 * @param a
@@ -16,6 +15,12 @@ public class Pay {
 	 */
 	public int getPayAmount(int a, int b) {
 		return a * b;
+	}
+
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
 	}
 
 }
